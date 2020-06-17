@@ -14,4 +14,6 @@ RUN apt-get update \
   && cp /usr/lib/x86_64-linux-gnu/libcuda.so.1 /usr/local/cuda/lib/ \
   && git clone https://github.com/lindawangg/COVID-Net.git
 
+ADD create_COVIDx_v3.py /COVID-Net/
+
 CMD ["/bin/bash"]
