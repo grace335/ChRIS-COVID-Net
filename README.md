@@ -24,7 +24,7 @@ To build the Docker image, simply run the following:
 docker image build -t "covid-net" .
 ```
 
-The container can be ran as a daemon so you can enter the container and start the processes.
+The container can run as a daemon so you can enter the container and start the processes.
 
 ```
 docker run -dit --name covid-net-test [REPLACE_WITH_IMAGE_ID]
