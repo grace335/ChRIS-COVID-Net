@@ -1,6 +1,8 @@
 # Converted from COVID-Net create_COVIDx_V3.ipynb
 # Source: https://github.com/lindawangg/COVID-Net/blob/master/create_COVIDx_v3.ipynb
 
+#!/usr/bin/env python3
+
 import numpy as np
 import pandas as pd
 import os
