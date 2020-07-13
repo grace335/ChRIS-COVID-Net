@@ -12,7 +12,10 @@ import pydicom as dicom
 import cv2
 
 # set parameters here
-savepath = 'data'
+os.mkdir('/outgoing/data')
+os.mkdir('/outgoing/data/train')
+os.mkdir('/outgoing/data/test')
+savepath = '/outgoing/data'
 seed = 0
 np.random.seed(seed)  # Reset the seed so all runs are the same.
 random.seed(seed)
