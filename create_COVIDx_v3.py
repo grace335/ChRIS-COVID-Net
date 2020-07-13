@@ -19,23 +19,23 @@ random.seed(seed)
 MAXVAL = 255  # Range [0 255]
 
 # path to covid-19 dataset from https://github.com/ieee8023/covid-chestxray-dataset
-cohen_imgpath = './data/covid-chestxray-dataset/images'
-cohen_csvpath = './data/covid-chestxray-dataset/metadata.csv'
+cohen_imgpath = '/usr/src/covidnet_train/in/data/covid-chestxray-dataset/images'
+cohen_csvpath = '/usr/src/covidnet_train/in/data/covid-chestxray-dataset/metadata.csv'
 
 # path to covid-19 dataset from https://github.com/agchung/Figure1-COVID-chestxray-dataset
-fig1_imgpath = './data/Figure1-COVID-chestxray-dataset/images'
-fig1_csvpath = './data/Figure1-COVID-chestxray-dataset/metadata.csv'
+fig1_imgpath = '/usr/src/covidnet_train/in/data/Figure1-COVID-chestxray-dataset/images'
+fig1_csvpath = '/usr/src/covidnet_train/in/data/Figure1-COVID-chestxray-dataset/metadata.csv'
 
 # path to covid-19 dataset from https://github.com/agchung/Actualmed-COVID-chestxray-dataset
-actmed_imgpath = './data/Actualmed-COVID-chestxray-dataset/images'
-actmed_csvpath = './data/Actualmed-COVID-chestxray-dataset/metadata.csv'
+actmed_imgpath = '/usr/src/covidnet_train/in/data/Actualmed-COVID-chestxray-dataset/images'
+actmed_csvpath = '/usr/src/covidnet_train/in/data/Actualmed-COVID-chestxray-dataset/metadata.csv'
 
 # path to covid-19 dataset from https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
-sirm_imgpath = './data/COVID-19-Radiography-Database/COVID-19'
-sirm_csvpath = './data/COVID-19-Radiography-Database/COVID-19.metadata.xlsx'
+sirm_imgpath = '/usr/src/covidnet_train/in/data/COVID-19-Radiography-Database/COVID-19'
+sirm_csvpath = '/usr/src/covidnet_train/in/data/COVID-19-Radiography-Database/COVID-19.metadata.xlsx'
 
 # path to https://www.kaggle.com/c/rsna-pneumonia-detection-challenge
-rsna_datapath = './data/rsna-pneumonia-detection-challenge'
+rsna_datapath = '/usr/src/covidnet_train/in/data/rsna-pneumonia-detection-challenge'
 # get all the normal from here
 rsna_csvname = 'stage_2_detailed_class_info.csv'
 # get all the 1s from here since 1 indicate pneumonia
